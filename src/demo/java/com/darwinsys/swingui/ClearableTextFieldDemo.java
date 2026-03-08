@@ -1,5 +1,15 @@
 // Demo main for ClearableTextField
 
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
+import com.darwinsys.swingui.ClearableTextField;
+
 void main() {
 	SwingUtilities.invokeLater(() -> {
 
